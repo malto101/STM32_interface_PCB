@@ -1,8 +1,9 @@
 # STM32F103C8Tx PCB Design Readme
+![3d-render](https://github.com/malto101/STM32_interface_PCB/assets/70323154/f53fa15a-ef11-425d-91d1-fb6ed8d953a6)
 
 ## Overview
 
-This readme provides an overview of the design considerations and technical details for the STM32F103C8Tx-based PCB you've created. The PCB includes a boot switch, exposed UART and I2C pins, utilizes SWD debugging for code uploading, and is powered via USB.
+This readme provides an overview of the design considerations and technical details for the STM32F103C8Tx-based PCB. The PCB includes a boot switch, exposed UART and I2C pins, utilizes SWD debugging for code uploading, and is powered via USB.
 
 ## PCB Features
 
@@ -11,7 +12,6 @@ This readme provides an overview of the design considerations and technical deta
 - **UART and I2C Pins:** Exposed for external communication
 - **Debugging:** Utilizes SWD (Serial Wire Debug) for code uploading and debugging
 - **Power:** USB powered
-- **Filter Capacitor:** Filter capacitor calculation for oscillator stability
 
 ## Filter Capacitor Calculation
 
@@ -24,9 +24,9 @@ This capacitor value helps ensure reliable oscillator performance, contributing 
 ## Repository Structure
 
 - `schematic/`: The schematic diagram of your PCB design.
-- `pcb_layout.pdf`: The PCB layout diagram showcasing component placement.
-- `source_code`: Directory containing the source code for your microcontroller.
-- `design_files`: Directory with additional design-related files, such as the Bill of Materials (BOM) and Gerber files for manufacturing.
+- `DataSheet/`: Directory showcasing component presenting the PCB.
+- `tutstm32.kicad_sch`: File containing the Schematic for the PCB.
+- `tutstm32.kicad_pcb`: File containing the routing of the PCB.
 
 ## Getting Started
 
