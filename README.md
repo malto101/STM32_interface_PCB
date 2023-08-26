@@ -1,4 +1,4 @@
-# STM32F103C8Tx PCB Design Readme
+# STM32F103C8Tx PCB Design 
 ![3d-render](https://github.com/malto101/STM32_interface_PCB/assets/70323154/f53fa15a-ef11-425d-91d1-fb6ed8d953a6)
 
 ## Overview
