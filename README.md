@@ -15,7 +15,7 @@ This readme provides an overview of the design considerations and technical deta
 
 ## Filter Capacitor Calculation
 
-For maintaining oscillator stability, a filter capacitor (CL) is required. You've calculated the value using the formula:
+For maintaining oscillator stability, a filter capacitor (CL) is required. I've calculated the value using the formula:
 
 CL = 2 * (CL0 - CS) = 2 * (10 - 5) pF = 10 pF
 
